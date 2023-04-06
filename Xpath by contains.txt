@@ -1,0 +1,26 @@
+Xpath by contains
+
+Syntax:
+1]//tagname[contains(@AttributeName,'partial AttributeValue')]
+
+2]//tagname[contains(text(),'partialtextvalue')]
+
+
+
+Tv and Appliances
+
+//div[contains(text(),'TVs & Appliances')]
+
+top offers
+//div[contains(text(),'Top Offers')]
+
+
+
+
+
+#independent and dependent xpath
+
+1) write the xpath for identify which is fixed and dynamic
+2)write the xpath for fixedElement
+3)update same xpath by backward traversing(/..) to find commen parent between fixed element and dynamic element
+4)update xpath by write xpath for dynamic element
